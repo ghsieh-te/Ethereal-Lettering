@@ -55,7 +55,7 @@ p {
   background-image: url("../assets/banner_image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
 }
 
 .container.banner {
