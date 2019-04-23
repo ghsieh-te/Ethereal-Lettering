@@ -23,7 +23,7 @@ h1 {
 
 h2 {
   font-size:18px;
-  font-weight: normal;
+  font-weight: bold;
   color: #625D70;
 }
 
@@ -115,6 +115,16 @@ body .hero {
 
 .introduction {
   width: 60vw;
+  opacity: 0;
+  -webkit-transform: scaleX(0.9) translateY(2rem);
+  -moz-transform: scaleX(0.9) translateY(2rem);
+  transform: scaleX(0.9) translateY(2rem);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 hr {
